@@ -16,7 +16,7 @@ jobs:
         with:
           build: npm run build # build the app
           start: npm start # start the server
-          browser: firefox # run test on firefox
+          browser: chrome # run test on firefox
                     
           # Records to Cypress Cloud 
           # https://docs.cypress.io/guides/cloud/projects#Set-up-a-project-to-record
